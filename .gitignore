@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local Supabase state
+supabase/.temp/
+supabase/.branches/
+
+# Logs
+*.log
